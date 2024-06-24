@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# React Mini-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+Este proyecto es una aplicación sencilla de React que implementa un contador y permite cambiar entre temas claro y oscuro usando los hooks `useState`, `useEffect`, y `useContext`.
 
-In the project directory, you can run:
+## Instalación
 
-### `npm start`
+1. Clona este repositorio:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navega al directorio `react-mini-project`
 
-### `npm test`
+```
+cd react-mini-project
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Instala las dependencias
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Inicia la aplicación
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Hooks Utilizados
 
-### `npm run eject`
+1. useState
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Utilizado en ThemeContext.js para manejar el estado del tema (claro/oscuro).
+- Utilizado en Counter.js para manejar el estado del contador.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. useEffect
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Utilizado en Counter.js para actualizar el título del documento cada vez que cambia el contador.
+  useContext
+- Utilizado en ThemeToggle.js y App.js para acceder al contexto del tema y cambiarlo.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##### Adaptabilidad
 
-## Learn More
+- Este proyecto está estructurado de manera modular, lo que facilita la adición de nuevos componentes y la expansión de funcionalidades. Puedes agregar más contextos, hooks y componentes según sea necesario.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Ejecución del Proyecto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para ejecutar el proyecto, sigue los pasos en el archivo `README.md`. Este proyecto puede ser la base para desarrollos más complejos, integrando más estados y lógica según las necesidades del proyecto.
