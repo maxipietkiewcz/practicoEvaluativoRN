@@ -9,7 +9,7 @@ Este proyecto es una aplicación sencilla de React que implementa un contador y 
 1. Clona este repositorio:
 
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/maxipietkiewcz/practicoEvaluativoRN.git
    ```
 
 2. Navega al directorio `react-mini-project`
