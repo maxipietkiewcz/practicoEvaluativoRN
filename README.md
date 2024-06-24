@@ -40,7 +40,9 @@ npm start
 2. useEffect
 
 - Utilizado en Counter.js para actualizar el título del documento cada vez que cambia el contador.
-  useContext
+
+3. useContext
+
 - Utilizado en ThemeToggle.js y App.js para acceder al contexto del tema y cambiarlo.
 
 ##### Adaptabilidad
