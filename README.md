@@ -46,7 +46,3 @@ npm start
 ##### Adaptabilidad
 
 - Este proyecto está estructurado de manera modular, lo que facilita la adición de nuevos componentes y la expansión de funcionalidades. Puedes agregar más contextos, hooks y componentes según sea necesario.
-
-### Ejecución del Proyecto
-
-Para ejecutar el proyecto, sigue los pasos en el archivo `README.md`. Este proyecto puede ser la base para desarrollos más complejos, integrando más estados y lógica según las necesidades del proyecto.
